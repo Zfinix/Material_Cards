@@ -21,7 +21,6 @@ class MyHomePage extends StatelessWidget {
         body: _controller.cardList.length > 0
             ? ListView(
                 children: <Widget>[
-                  const YMargin(20),
                   _Slider(_controller),
                   const YMargin(10),
                 ],
@@ -66,7 +65,7 @@ class _Slider extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: MediaQuery.of(context).size.height * 0.75,
+      height: MediaQuery.of(context).size.height * 0.90,
       child: Swiper(
         scrollDirection: Axis.horizontal,
         

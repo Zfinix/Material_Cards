@@ -101,7 +101,7 @@ class ProfileCard extends StatelessWidget {
             ),
           ],
         ),
-        margin: const EdgeInsets.only(bottom: 50.0),
+        margin: const EdgeInsets.only(bottom: 30.0),
         width: double.infinity,
       )),
       Align(

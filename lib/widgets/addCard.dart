@@ -18,7 +18,7 @@ class AddProfileCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(20.0),
+      padding: const EdgeInsets.only(left :20,right:20),
       child: Container(
         height: MediaQuery.of(context).size.height,
         child: ListView(children: <Widget>[
@@ -39,7 +39,6 @@ class AddProfileCard extends StatelessWidget {
               child: ListView(
                 shrinkWrap: true,
                 children: <Widget>[
-                  const YMargin(30),
                   Container(
                     child: Image(
                       height: 160,
